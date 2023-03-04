@@ -1,0 +1,534 @@
+@import "rsuite/dist/rsuite.css";
+
+
+
+.main-img img {
+  background-size: cover;
+  width: 100%;
+  height:100vh ;
+  position: absolute;
+    
+}
+
+.main-text{
+    position: relative;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
+    top:200px;
+    padding: 80px;
+    margin-left: 490px;
+}
+
+@media  (max-width: 480px) {
+    .main-img img {
+        height:70vh ;
+
+    }
+}
+
+
+.services{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+
+
+.list-items ul {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 5px;
+
+
+
+}
+
+.list-items ul li{
+    margin: 0;
+    list-style: none;
+    font-size: 0.68rem;
+    font-family: Arial,Tahoma,Bitstream Vera Sans,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.Top-amities{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.date-pick{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+
+
+.card-place{
+    width: calc(33.33% - 20px);
+     margin-bottom: 20px;
+    /* width: 110%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: space-between !important;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* .cart-container{
+    display: flex;
+    flex-direction:column;
+} */
+
+.footer-container{
+    position: sticky;
+}
+
+.first-footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #3c3d41;
+    width: 100%;
+    height: 200px;
+}
+
+
+.secound-footer{
+    background-color: #333333;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-weight: 400;
+    align-items: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+
+
+
+}
+
+.first-footer ul li{
+    font-size: 0.88rem;
+    color: gray;
+     
+ }
+
+
+ .social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+ }
+ 
+ 
+
+.date-box.fixed{
+    position: relative;
+    position: fixed;
+    top: 61px;
+    width: 100%;
+    z-index:999;
+    /* right: 10px; */
+
+}
+
+.skeleton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+
+}
+
+.navbarcolor{
+    background-color: #141729;
+}
+.date-box{
+    position: relative;
+    z-index: 10;
+}
+
+
+.guest-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.googlesign{
+    width: 140px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.googlesign:hover{
+    filter: brightness(0.9)
+
+}
+
+
+.cart-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cart-list{
+    width: 620px;
+    font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif;
+}
+
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    
+}
+
+
+.css-10hburv-MuiTypography-root{
+    font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif !important;
+font-size: 0.876rem !important;
+
+}
+
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  
+
+.css-46bh2p-MuiCardContent-root{
+    padding: 10px;
+    padding-bottom: 5px !important;
+}
+
+
+.cart-action{
+    margin-bottom: 5px;
+}
+
+.cart-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly !important;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.pre-price{
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.Now-price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.offer-section{
+    margin-left: 5px;
+    color: green;
+}
+
+.prop-type{
+    margin-top: 10px;
+    font-family:Proxima Vara,Arial,Helvetica,Sans,Sans-Serif ;
+    font-weight: 700;
+}
+
+.category-type ul{
+    margin: 5px;
+
+
+}
+
+.category-type ul li{
+    font-family:Proxima Vara,Arial,Helvetica,Sans,Sans-Serif ;
+    font-size: 0.68rem;
+    list-style: disc;
+    margin: 0;
+
+
+}
+
+.taxes-tag{
+    font-family:Proxima Vara,Arial,Helvetica,Sans,Sans-Serif ;
+    font-size: 0.58rem;
+    margin: 0;
+}
+
+
+.cartview-price{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.Viewpre-price{
+    text-decoration: line-through;
+    color:whitesmoke;
+    margin-left: 8px;
+
+
+}
+
+.ViewNow-price{
+    color:whitesmoke;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+
+a:hover{
+    text-decoration: none;
+
+}
+
+/* .card-amenticon{ */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+/* } */
+
+
+.first-rowicon ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    align-items: center;
+    font-family:Proxima Vara,Arial,Helvetica,Sans,Sans-Serif ;
+    margin-top: 15px;
+}
+.first-rowicon ul li{
+    font-size: 0.78rem;
+}
+
+
+
+.second-rowicon ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    justify-content: space-evenly;
+}
+
+.second-rowicon ul li {
+    font-size: 0.78rem;
+    font-family:Proxima Vara,Arial,Helvetica,Sans,Sans-Serif ;
+}
+
+/* .second-rowicon{
+    display: flex;
+    flex-direction: row;
+} */
+
+.card-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.MuiTab-.css-1hv8oq8-MuiStepLabel-label{
+    color:"#f31260" !important;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active{
+    color:#e91e63 !important;
+
+
+}   
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+    color:#e91e63 !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+    color:black !important;
+}
+
+
+.check-in{
+    display: flex;
+    flex-direction: column;
+}
+.check-in span:first-child {
+    color: green;
+    font-weight: bold;
+}
+.check-out span:first-child {
+    color: green;
+    font-weight: bold;
+}
+    
+.check-out{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.total-guest{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+
+#addform{
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+width:100%;
+margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* maedia queries */
+
+/* @media (min-width: 370px) and (max-width: 768px) {
+    .css-wf08c9-MuiPaper-root{
+    width: 140px;
+    height: 60px;
+   }
+
+   .first-footer ul li{
+    font-size: 0.48rem;
+    color: gray;
+     
+ }
+ .css-16cl8er{
+    width: 105px;
+    height:10px
+ }
+ .css-o4jq6f{
+    width: 105px;
+    height: 10px;
+ }
+ .contact-us{
+    width: 110px;
+    height: 10px;
+ }
+ .footer-container{
+    width: 100%;
+ }
+ .first-footer{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ .secound-footer{
+    width: 100%;
+ }
+ .css-1uny3nd-MuiPaper-root-MuiCard-root{
+    width:420px;
+ }
+
+ .first-footer{
+    padding:0px;
+    margin: 0;
+ }
+
+
+
+
+ .secound-footer p{
+    font-size: 0.67rem;
+ }
+
+ .first-footer:nth-child(1){
+    display: none;
+ }
+
+ .css-0 {
+    width: 110px !important;
+    height: 10px !important;
+ }
+ 
+ 
+}
+
+
+ */
+
