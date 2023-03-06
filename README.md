@@ -9,10 +9,32 @@ and room availability.
 - Payment system
 - Check-in and check-out
 - Room availability
-- Prerequisites
+**Prerequisites**
 - Node.js and npm installed on your computer
 - MongoDB account and database set up
 - Firebase account and project set up
+
+**PROJECT PRESENATION**
+https://drive.google.com/file/d/1EHonKIkxXhDspA-jIB1FhV3sFFaHqXOv/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Running the app**<br>
 - Clone this repository
@@ -28,8 +50,6 @@ $ npm start
 - Open your browser and go to http://localhost:3000/
 
 
-Contributing
-Contributions are always welcome. Feel free to open an issue or create a pull request.
 
 
 
