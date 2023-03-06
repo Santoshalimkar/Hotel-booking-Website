@@ -8,7 +8,7 @@ and room availability.
 - Book hotels, villas, tents, and cottages
 - Payment system
 - Check-in and check-out
-- Room availability
+- Room availability<br>
 **Prerequisites**
 - Node.js and npm installed on your computer
 - MongoDB account and database set up
