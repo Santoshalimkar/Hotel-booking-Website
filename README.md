@@ -14,8 +14,13 @@ and room availability.
 - MongoDB account and database set up
 - Firebase account and project set up
 
-**PROJECT PRESENATION**
+**PROJECT PRESENATION**<br>
 https://drive.google.com/file/d/1EHonKIkxXhDspA-jIB1FhV3sFFaHqXOv/view?usp=sharing
+
+
+**PROJECT OVERVIEW**
+
+![Lonavla Stay](https://user-images.githubusercontent.com/112555787/223153826-66b7765a-42e0-4bfa-9c70-5864b1832175.png)
 
 
 
