@@ -8,7 +8,6 @@ const Razorpay = require('razorpay');
 const crypto = require('crypto');
 const cron = require('node-cron');
 const admin = require("firebase-admin");
-var serviceAccount = require("../Serviceaccount.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
