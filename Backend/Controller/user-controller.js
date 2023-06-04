@@ -9,9 +9,6 @@ const crypto = require('crypto');
 const cron = require('node-cron');
 const admin = require("firebase-admin");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
 
 
 
