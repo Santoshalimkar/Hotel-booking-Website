@@ -6,7 +6,7 @@ const routes=require("./Routes/Route.js")
 
  require('dotenv').config();
 
-const PORT=process.env.PORT_NO
+const PORT=process.env.PORT_NO || 8000
 
 
 
@@ -25,7 +25,6 @@ const db = mongoose.connection;
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 
-app.use(cors())
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
